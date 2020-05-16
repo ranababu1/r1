@@ -1,60 +1,54 @@
 .App {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .jumbotron {
   margin-bottom: 0 !important;
-  background-color: #00414d;
   text-align: center;
 }
 
-.jumboH2{
-  font-family: 'Architects Daughter', cursive;
-  color:#e74c3c !important;
+.jumboH2 {
+  font-family: "Exo 2", sans-serif;
+  color: #00414d !important;
   letter-spacing: 2px;
   text-align: center;
   padding: 30px 0;
 }
-.colorfulBlock{
+.colorfulBlock {
   min-height: 100px;
 }
 
-.colorfulBlock1{
+.colorfulBlock1 {
   background-color: #00414d;
   padding: 20px 0;
 }
 
-.colorfulBlock2{
-  background-color: #fddd03;
+.colorfulBlock2 {
+  background-color: #ffffff;
   padding: 20px 0;
 }
 
-.colorfulBlock3{
+.colorfulBlock3 {
   background-color: #7bc792;
   padding: 20px 0;
 }
 
-
-
-.geoG{
-  color:#27ae60;
-  
+.geoG {
+  color: #27ae60;
 }
 
-.geoE{
-  color:#27ae61;
+.geoE {
+  color: #27ae61;
 }
 
-.geoN{
-  color:#27ae62;
+.geoN {
+  color: #27ae62;
 }
 
-
-
-.threebox{
+.threebox {
   border: 1px solid #00414d;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 1 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 1 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 10px;
   background-color: #00414d;
@@ -63,72 +57,62 @@
   min-height: 400px;
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
 
 .threebox:hover {
-  box-shadow: 0 8px 16px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 2px rgba(0, 0, 0, 0.2);
 }
 
-.hero{
+.threeboxtext {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+
+.hero {
   box-shadow: 0 0 10px 1px;
   margin: 10px;
 }
-
 
 .main {
   min-height: calc(80vh - 6rem);
 }
 
-
-@keyframes heartbeat
-{
-  0%
-  {
-    transform: scale( .75 );
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
   }
-  20%
-  {
-    transform: scale( 1 );
+  20% {
+    transform: scale(1);
   }
-  40%
-  {
-    transform: scale( .75 );
+  40% {
+    transform: scale(0.75);
   }
-  60%
-  {
-    transform: scale( 1.25 );
+  60% {
+    transform: scale(1.25);
   }
-  80%
-  {
-    transform: scale( .75 );
+  80% {
+    transform: scale(0.75);
   }
-  100%
-  {
-    transform: scale( .75 );
+  100% {
+    transform: scale(0.75);
   }
 }
 
-.footerText:hover{
+.footerText:hover {
   animation: heartbeat 1s infinite;
-  font-family: 'Architects Daughter', cursive;
-  color:#ccc !important;
-
-
+  font-family: "Exo 2", sans-serif;
+  color: #ccc !important;
 }
 .footer {
   height: 6rem;
   background-color: #00414d;
   padding: 20px 0;
-  color:#fddd03;
-  font-size: 18px;  
+  color: #ffffff;
+  font-size: 18px;
   text-align: center;
 }
 
-
 .heartbeating:hover {
-  color:red !important;
+  color: red !important;
 }
-
-
-
